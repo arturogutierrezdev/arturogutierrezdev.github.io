@@ -1,2 +1,0 @@
-# arturogutierrezdev.github.io
-portfolio
