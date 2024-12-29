@@ -4,21 +4,28 @@
 body {
 	text-align: left;
 	padding: 8px;
-	background-color: #242424;
+	background-color: #181818;
 	font-Family: Arial, sans-serif; 
+	background-image: url("../assets/horizontal ocean2.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+
 }
 nav {
-	background-color: #202020
+	background-color: #202020;
+	border-radius: 5px;
 }
 ul {
 	list-style-type: none;
-	align-content: flex-start;
+	align-content: flex-end;
 	margin: 0;
   	padding: 0;
 	font-family: "novecento-sans", sans-serif;
 }
 li {
-	float: center
+	float: center;
+	list-style-type: none;
+	display: inline;
 } 
 a {
   	display: inline-block;
@@ -30,6 +37,7 @@ a {
 li a:hover {
   background-color: #555;
   color: white;
+  border-radius: 5px;
 }
 .active {
   background-color: #04AA6D;
@@ -41,26 +49,71 @@ h1 {
 	padding-right: 20px;
 	padding-top: 30px;
 	padding-bottom:30px;
+	width: 500px;
 	background-color: #181818 ;
 	color: #FFFFFF;
 	font-family: "novecento-sans", sans-serif;
 	font-weight: 200;
 	font-style: normal;
 	letter-spacing: 0.3em;
+	border-radius: 5px;
+	
 }
 
 h2 {
 	color: #FFFFFF;
+	background-color: #202020;
+	width: 200px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
 	font-family: "novecento-sans", sans-serif;
 	font-weight: 100;
 	font-style: normal;
+	letter-spacing: 0.2em;
+	border-radius: 5px;
 }
+
+div{}
+.Overview
+{
+	background-color: #202020;
+	padding: 5px;
+	width: 280px;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+.Project
+{
+	background-color: #181818;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 20px;
+	margin-bottom: 10px
+}
+
+.ProjectDescription
+{
+	display: table;
+}
+img {
+  	vertical-align: middle;
+ 	display: table-cell;
+	border-radius: 25px;
+	padding: 10px;
+}
+span {
+  vertical-align: top;
+  display: table-cell;
+}
+
 p {
-	color: #FFFFFF;
+color: #FFFFFF;
+	letter-spacing: 0.1em;	
 	font-family: "novecento-sans", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	letter-spacing: 0.1em;
 }
 
 
