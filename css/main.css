@@ -2,12 +2,67 @@
 /* CSS Document */
 
 body {
-	background-color: #322E2E;
-	font-Family: Helvetica, Arial, Sans-serif; 
+	text-align: left;
+	padding: 8px;
+	background-color: #242424;
+	font-Family: Arial, sans-serif; 
 }
-h1, h2 {
+nav {
+	background-color: #202020
+}
+ul {
+	list-style-type: none;
+	align-content: flex-start;
+	margin: 0;
+  	padding: 0;
+	font-family: "novecento-sans", sans-serif;
+}
+li {
+	float: center
+} 
+a {
+  	display: inline-block;
+	padding: 16px;
+	color: whitesmoke;
+	text-decoration: none;
+	
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+h1 {
+	padding-left: 50px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom:30px;
+	background-color: #181818 ;
 	color: #FFFFFF;
+	font-family: "novecento-sans", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	letter-spacing: 0.3em;
+}
+
+h2 {
+	color: #FFFFFF;
+	font-family: "novecento-sans", sans-serif;
+	font-weight: 100;
+	font-style: normal;
 }
 p {
 	color: #FFFFFF;
+	font-family: "novecento-sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0.1em;
 }
+
+
+
+
